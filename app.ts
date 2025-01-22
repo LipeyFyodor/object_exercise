@@ -103,7 +103,17 @@ salaryStatistics(employeesList,"all");
 // }
 
 
+function removeName(array: employee []){
+const name = prompt("search for a name");
+for (let i=0; i < array.length; i ++){
+if  (array[i].name === name){
+    array.splice(i,1);
+} else {
+alert("name not found");
 
+
+}   
+}
 
 
 
